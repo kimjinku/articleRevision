@@ -1,3 +1,5 @@
+package Model;
+
 public class Article {
 
 
@@ -18,7 +20,25 @@ public class Article {
     private String title;
     private String content;
 
+    public int getHit() {
+        return hit;
+    }
+
+    public void setHit(int hit) {
+        this.hit = hit;
+    }
+
+    private int hit;
+
+    public void setRegDate(String regDate) {
+        this.regDate = regDate;
+    }
+
     private String regDate;
+
+    public String getRegDate() {
+        return regDate;
+    }
 
     public int getId() {
         return id;

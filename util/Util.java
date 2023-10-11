@@ -1,9 +1,9 @@
+package util;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Util {
-
-
     public static String getCurrent() {
 
         // 현재 날짜 구하기
@@ -18,4 +18,3 @@ public class Util {
 
     }
 }
-

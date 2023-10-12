@@ -1,12 +1,9 @@
-package Model;
+package Article.Model;
 
 
-import util.Util;
+import Article.util.Util;
 
 import java.util.ArrayList;
-
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class ArticleRepository {
     ArrayList<Article> articles = new ArrayList<>();

@@ -1,7 +1,6 @@
-package View;
+package Article.View;
 
-import Model.Article;
-import jdk.jshell.execution.Util;
+import Article.Model.Article;
 
 import java.util.ArrayList;
 

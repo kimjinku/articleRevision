@@ -3,7 +3,7 @@ package Article.Controller;
 import java.util.Scanner;
 
 public class BoardApp {
-    static ArticleController articleController = new ArticleController();
+    static Article.Controller.ArticleController articleController = new Article.Controller.ArticleController();
 
     public static void start() {
         Scanner scan = new Scanner(System.in);

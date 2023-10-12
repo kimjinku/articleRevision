@@ -1,4 +1,4 @@
-package Model;
+package Article.Model;
 
 public class Article {
 

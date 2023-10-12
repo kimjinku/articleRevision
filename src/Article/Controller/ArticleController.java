@@ -1,12 +1,10 @@
 package Article.Controller;
 
-import Model.Article;
-import Model.ArticleRepository;
-import View.ArticleView;
-import util.Util;
+import Article.Model.Article;
+import Article.Model.ArticleRepository;
+import Article.View.ArticleView;
 
 import java.util.ArrayList;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ArticleController {
